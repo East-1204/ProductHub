@@ -1,0 +1,41 @@
+name: producthub
+description: Modern Inventory Management App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^1.0.6
+  
+  # Google Fonts versi terbaru
+  google_fonts: ^6.1.0  # Pastikan versi ini
+  
+  # Hapus dependencies yang tidak perlu jika ada error
+  # iconsax: ^0.1.6  # SEMENTARA HAPUS JIKA ERROR
+  # smooth_page_indicator: ^1.1.0
+  # shimmer: ^3.0.0
+  
+  # Database
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  
+  # Utilities 
+  intl: ^0.19.0
+  shared_preferences: ^2.2.2
+  iconsax: ^0.0.8
+  url_launcher: ^6.1.10
+  flutter_local_notifications: ^19.5.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
